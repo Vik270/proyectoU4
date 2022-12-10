@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.ancho{
+    width: 100%;
+    margin: auto;
+    font-family: 'Abel', sans-serif;
+}
+header img{
+    width: 120px;
+}
+.circulo1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #3B61B9;
+}
+.contenedor_iconos{
+    max-width: 1200px;
+    margin: auto;
+}
+.info1{
+    color: #3B61B9;
+    font-size: 20px;
+}
+.contenedor_ct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.contenedor_iconos{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circulo2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+}
+.contenedor_contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+}
+
+.barra_menu{
+    background-color: #3B61B9;
+    margin: auto;
+    font-family: 'Anton', sans-serif;
+}
+.limite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    background-color: 3B61B9;
+    margin: auto;
+}
+.opc_menu{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px 15px;
+    margin: auto;
+}
+.opcs_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.opc_menu:hover{
+    background-color: #66d2b0;
+}
+
+.parallaxs{
+    background-image: url(iaagen/fondo1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -10px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+    height: 300px;
+    gap: 20px;
+    color: white;
+}
+.txt1_parallaxs{
+    max-width: 500px;
+}
+.txt1_parallaxs h1{
+    font-size: 50px;
+}
+.parallaxs figure{
+    gap: 20px;
+    padding-left: 0;
+    flex-direction: column-reverse;
+}
+.contenedor_slide {
+    margin: auto;
+    position: relative;
+  }
+  .rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 70vh;
+    }
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+  .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    border: 0;
+    }
+  .texto{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50% , -50%);
+    z-index: 100;
+    color: #434445;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 28px;
+    width: 1000px;
+  }
+  .btn_rojo{
+    background-color:#23D5AE;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+    padding:15px 30px;
+    text-decoration: none;
+  }
+  .btn_rojo:hover{
+    background-color: #3B61B9;
+  }
+  .icns{
+    font-size: 30px;
+    color: #2ea4ee;
+}
+.raya{
+    height: 1px;
+    width: 250px;
+    background-color: lightgrey;
+}
+.ttl{
+    font-size: 25px;
+    font-weight: 600;
+}
+.crp{
+    font-size: 20px;
+}
+.contenedor_ser{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    color: #353535;
+}
+
+.contenedor_sers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+
+
+footer{
+    max-width: 1200px;
+    background-color: #294481;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 30px;
+}
+footer i{
+    color: #23D5AE;
+}
+footer div{
+    width: 30%;
+}
+.linea{
+    border: 1px white solid;
+    width: 100%;
+}
+.cont div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.forma{
+    color: #294481;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    gap: 30px   ;
+}
+.mapa{
+    max-width: 1200px;
+    margin: auto;
+    height: 500px;
+    position: relative;
+}
+.mapa iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*cosas de movil*/
+@media screen and (max-width: 480px) {
+    
+}
